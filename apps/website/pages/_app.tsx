@@ -10,7 +10,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <title>Fix-Link Consult</title>
       </Head>
       <SiteLayout>
-        <Component {...pageProps} />
+        <div className="z-10">
+          <Component  {...pageProps} />
+        </div>
       </SiteLayout>
     </>
   );
