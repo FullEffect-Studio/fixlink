@@ -43,28 +43,28 @@ export function Navbar() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </label>
               <ul tabIndex={0} className="menu menu-compact z-50 dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Home</a></li>
-                <li><a>About Us</a></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/about">About Us</Link></li>
                 <li tabIndex={0}>
                   <a className="justify-between">
                     Services
                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                   </a>
                   <ul className="p-2 bg-white shadow-lg">
-                    <li><a>Study Abroad</a></li>
-                    <li><a>Photography & Video Coverage</a></li>
-                    <li><a>Graphic Design & Printing Press</a></li>
-                    <li><a>Work & Pay Cars</a></li>
-                    <li><a>General Consulting</a></li>
+                    <li><Link href="/services/study-abroad">Study Abroad</Link></li>
+                    <li><Link href="/services/photography">Photography & Video Coverage</Link></li>
+                    <li><Link href="/services/design">Graphic Design & Printing Press</Link></li>
+                    <li><Link href="/services/work-and-pay">Work & Pay Cars</Link></li>
+                    <li><Link href="/services/consulting">General Consulting</Link></li>
                   </ul>
                 </li>
-                <li><a>Item 3</a></li>
+                <li><Link href="/contact">Contact Us</Link></li>
               </ul>
             </div>
-            <div className="bg-transparent flex items-center space-x-4 text-xl cursor-pointer">
+            <Link className="bg-transparent flex items-center space-x-4 text-xl cursor-pointer" href="/">
               <Image src={logo} priority width={70} height={70} alt="Fix-Link Consult Logo"/>
               <div className="uppercase text-blue-900 text-xl font-bold">Fix-Link Consult</div>
-            </div>
+            </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -83,7 +83,7 @@ export function Navbar() {
                   <li><Link href="/services/consulting">General Consulting</Link></li>
                 </ul>
               </li>
-              <li><a className="text-primary">Contact Us</a></li>
+              <li><Link href="/contact" className="text-primary">Contact Us</Link></li>
             </ul>
           </div>
           <div className="navbar-end hidden lg:flex">

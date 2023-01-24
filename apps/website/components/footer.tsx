@@ -1,8 +1,10 @@
 import Image from "next/image";
 import logo from "../public/images/logo.png"
 import {FiFacebook, FiInstagram, FiLinkedin, FiMail, FiMapPin, FiPhone} from "react-icons/fi";
+import Link from "next/link";
 
 export function Footer() {
+  const year = (new Date()).getFullYear();
   return <>
   <div className="bg-neutral">
     <div className="container mx-auto">
@@ -15,7 +17,7 @@ export function Footer() {
                 <Image className="mr-2 lg:mr-4" src={logo} priority width={70} height={70} alt="Fix-Link Consult Logo"/>
                 <div>
                   <span className="lg:hidden">We help you to study abroad, plan an event, photography and video coverage, own a car, or grow your business.</span>
-                  <span className="hidden lg:block">We offer a wide range of services to help you achieve your goals, whether you're looking to study abroad, plan an event, capture memories through photography and video, own a car, or grow your business.</span>
+                  <span className="hidden lg:block">We offer a wide range of services to help you achieve your goals, whether you&apos;re looking to study abroad, plan an event, capture memories through photography and video, own a car, or grow your business.</span>
                   <div className="text-white flex items-center">
                     <div>Follow us:</div>
                     <div className="hover:bg-primary px-3 py-3">
@@ -38,18 +40,18 @@ export function Footer() {
         </div>
         <div className="col-span-2 lg:col-span-1">
           <span className="footer-title">Quick Links</span>
-          <a className="link link-hover">Homepage</a>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Study Abroad</a>
+          <Link href="/" className="link link-hover">Homepage</Link>
+          <Link href="/about" className="link link-hover">About us</Link>
+          <Link href="/contact" className="link link-hover">Contact</Link>
+          <Link href="/services/study-abroad" className="link link-hover">Study Abroad</Link>
 
         </div>
         <div className="col-span-2 lg:col-span-1 md:hidden lg:grid">
           <span className="footer-title">Other Services</span>
-          <a className="link link-hover">Photography & Video</a>
-          <a className="link link-hover">Design & Printing</a>
-          <a className="link link-hover">General Consulting</a>
-          <a className="link link-hover">Work & Pay</a>
+          <Link href="/services/photography" className="link link-hover">Photography & Video</Link>
+          <Link  href="/services/design" className="link link-hover">Design & Printing</Link>
+          <Link  href="/services/consulting" className="link link-hover">General Consulting</Link>
+          <Link  href="/services/work-and-pay" className="link link-hover">Work & Pay</Link>
         </div>
         <div className="col-span-4 lg:col-span-2">
           <span className="footer-title">Address</span>
@@ -65,5 +67,10 @@ export function Footer() {
       </footer>
     </div>
   </div>
+    <div className="bg-gray-500">
+      <div className="container mx-auto flex justify-center py-4">
+        <div className="text-white text-sm">Fix-Link Consult Limited © {year}. All Rights Reserved.</div>
+      </div>
+    </div>
   </>
 }
