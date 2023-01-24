@@ -44,7 +44,7 @@ export function Footer() {
           <a className="link link-hover">Study Abroad</a>
 
         </div>
-        <div className="col-span-2 lg:col-span-1 md:hidden">
+        <div className="col-span-2 lg:col-span-1 md:hidden lg:grid">
           <span className="footer-title">Other Services</span>
           <a className="link link-hover">Photography & Video</a>
           <a className="link link-hover">Design & Printing</a>
@@ -56,6 +56,10 @@ export function Footer() {
           <div className="flex items-center"> <FiMail className="text-accent text-md mr-2" /> <div>info@fixlinkconsultgh.com</div></div>
           <div className="flex items-center"> <FiPhone className="text-accent text-md mr-2" /> <div>+233(0)501064110 / 0302549659</div></div>
           <div className="flex items-center"> <FiMapPin className="text-accent text-md mr-2" /> <div>Adjacent Pentecost, Adenta - Accra, Ghana</div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
 
         </div>
       </footer>
