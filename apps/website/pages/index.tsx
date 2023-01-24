@@ -21,7 +21,21 @@ export function Index({data}) {
     <main>
       <Carousel afterChange={onChange} prevArrow={Arrow('left')}>
         <div className="bg-cover bg-gray-300 slide1 h-96">
-          <h3>Slide 1</h3>
+          <div className='container mx-auto py-16 px-16'>
+            <div className="bg-primary p-8 w-2/5 bg-opacity-25 rounded-lg">
+              <div className="uppercase text-accent text-lg">Education Consultants</div>
+              <div className="text-white text-2xl">Start planning your future</div>
+              <div className="text-4xl text-white font-black uppercase drop-shadow">study in abroad</div>
+
+              <div className="text-white mt-2">
+                At Fix-Link Consult Ltd, we believe that foreign education is not an expense but an investment where the return comes over a lifetime.
+              </div>
+
+              <div className="mt-4">
+                <button className="btn btn-accent btn-md">Apply Now</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="bg-cover bg-gray-300 slide2 h-96">
