@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 .slide1{
-  background-image: url("/images/study_abroad.png");
-}
-.slide2{
   background-image: url("/images/study_abroad_2.jpg");
+}
+
+.slide2{
+  background-image: url("/images/study_abroad.png");
 }

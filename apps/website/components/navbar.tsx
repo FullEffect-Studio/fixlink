@@ -35,7 +35,7 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="bg-white shadow-lg">
+      <div className="bg-white drop-shadow-2xl">
         <div className="navbar h-24 items-center container mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
@@ -86,8 +86,8 @@ export function Navbar() {
               <li><a className="text-primary">Contact Us</a></li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <a className="btn">Make an Enquiry</a>
+          <div className="navbar-end hidden lg:flex">
+            <a className="btn ">Make an Enquiry</a>
           </div>
         </div>
       </div>
