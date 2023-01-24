@@ -4,7 +4,13 @@ module.exports = {
     './apps/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '100': '30rem',
+        '120': '34rem',
+        '140': '38rem',
+      },
+    },
   },
 
   daisyui: {

@@ -20,7 +20,7 @@ export function Index({data}) {
   return (
     <main>
       <Carousel afterChange={onChange} prevArrow={Arrow('left')}>
-        <div className="bg-cover bg-gray-300 slide1 h-96">
+        <div className="bg-cover bg-gray-300 slide1 h-100">
           <div className='container mx-auto py-16 px-16'>
             <div className="bg-primary p-8 w-2/5 bg-opacity-25 rounded-lg">
               <div className="uppercase text-accent text-lg">Education Consultants</div>
@@ -38,7 +38,7 @@ export function Index({data}) {
           </div>
         </div>
 
-        <div className="bg-cover bg-gray-300 slide2 h-96">
+        <div className="bg-cover bg-gray-300 slide2 h-100">
           <h3>Slide 2</h3>
         </div>
       </Carousel>
