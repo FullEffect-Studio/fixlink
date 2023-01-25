@@ -1,6 +1,6 @@
 import { Carousel } from 'antd';
 
-export function Index({ data }) {
+export function Index() {
 
   return (
     <main>
@@ -101,12 +101,5 @@ export function Index({ data }) {
   );
 }
 
-export async function getStaticProps() {
-  return {
-    props: {
-      data: ['Fix-Link Consult', 'Adenta', 'Madina'],
-    },
-  };
-}
 
 export default Index;
