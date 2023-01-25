@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "source": ".",
+    "public": "dist/apps/website/exported",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }

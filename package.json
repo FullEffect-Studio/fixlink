@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev:website": "nx serve website",
-    "build": "nx build website"
+    "build": "nx build website && nx export website"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
     "react-icons": "^4.7.1",
     "react-simply-carousel": "^8.4.2",
     "rxjs": "~7.5.0",
+    "sharp": "^0.31.3",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

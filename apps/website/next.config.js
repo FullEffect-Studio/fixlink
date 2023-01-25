@@ -13,6 +13,9 @@ const nextConfig = {
     svgr: false,
 
   },
+  images: {
+    unoptimized: true
+  }
 };
 
 module.exports = withNx(nextConfig);
