@@ -6,18 +6,7 @@ export function Index() {
     <main>
       <Carousel
         className="-z-30"
-        arrows
-        accessibility
-        cssEase="ease-in"
-        infinite
-        pauseOnFocus
-        pauseOnHover
-        swipe
-        draggable
-        dotPosition="right"
         autoplay
-        verticalSwiping
-        touchMove
         autoplaySpeed={5000}
       >
         <div className="bg-cover bg-gray-300 slide1 h-120 lg:h-100">
@@ -74,19 +63,42 @@ export function Index() {
         </div>
 
         <div className="bg-cover bg-top bg-gray-300 slide3 h-120 lg:h-100">
-          <div className="container mx-auto py-16 px-12 lg:px-10">
-            <div className="bg-gray-50 p-8 lg:w-2/5 bg-opacity-75 rounded-lg">
+          <div className="container mx-auto py-16 px-4 lg:px-10">
+            <div className="bg-yellow-300 p-8 lg:w-2/5 bg-opacity-75 rounded-lg">
               <div className="uppercase text-neutral text-lg"></div>
-              <div className="text-primary text-2xl">
+              <div className="text-neutral text-2xl">
                 Get High Quality and modern looking{' '}
               </div>
-              <div className="text-4xl text- font-black uppercase drop-shadow my-4">
+              <div className="text-4xl text-primary font-black uppercase drop-shadow my-4">
                 Graphics design and print jobs at cool prices
               </div>
 
-              <div className="text-primary mt-2">
+              <div className="text-neutral mt-2">
                 We ensure that your memories are captured in the best possible
                 way.
+              </div>
+
+              <div className="mt-4 space-x-4">
+                {/*<button className="btn btn-accent btn-md">Apply Now</button>*/}
+                <button className="btn btn-info btn-md">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-cover bg-top bg-gray-300 slide4 h-120 lg:h-100">
+          <div className="container mx-auto py-16 px-4 lg:px-10 flex justify-end">
+            <div className="bg-primary p-8 lg:w-2/5 bg-opacity-75 rounded-lg">
+              <div className="uppercase text-accent text-lg"></div>
+              <div className="text-white text-2xl">
+                Affordable Work & Pay
+              </div>
+              <div className="text-4xl text-white font-black uppercase drop-shadow my-4">
+                work and pay for your car
+              </div>
+
+              <div className="text-white mt-2">
+                We are here to help you get behind the wheel of your own car with our innovative program.
               </div>
 
               <div className="mt-4 space-x-4">
