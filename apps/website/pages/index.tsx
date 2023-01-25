@@ -19,7 +19,7 @@ export function Index({data}) {
 
   return (
     <main>
-      <Carousel autoplay={true} autoplaySpeed={5000} afterChange={onChange} prevArrow={Arrow('left')}>
+      <Carousel className="-z-30"  autoplay={true} autoplaySpeed={5000} afterChange={onChange} prevArrow={Arrow('left')}>
         <div className="bg-cover bg-gray-300 slide1 h-120 lg:h-100">
           <div className='container mx-auto py-16 px-4 lg:px-16'>
             <div className="bg-primary p-8 lg:w-2/5 bg-opacity-75 rounded-lg">
