@@ -4,9 +4,11 @@ import { Navbar } from './navbar';
 export function SiteLayout({ children }) {
   return (
     <>
-      <Navbar />
-      {children}
-      <Footer />
+      <div className="overflow-x-clip">
+        <Navbar />
+        {children}
+        <Footer />
+      </div>
     </>
   );
 }
