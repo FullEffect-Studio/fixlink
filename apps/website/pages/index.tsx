@@ -134,6 +134,31 @@ export function Index() {
             </div>
           </div>
         </div>
+
+        <div className="bg-cover bg-gray-300 slide6 h-120 lg:h-100">
+          <div className="container mx-auto py-16 px-4 lg:px-16">
+            <div className="bg-primary p-8 lg:w-6/12 bg-opacity-75 rounded-lg">
+              <div className="uppercase text-accent text-lg mb-2">
+                We get it done faster and cheaper.
+              </div>
+              <div className="text-white text-2xl">
+                Legal documents including:
+              </div>
+              <div className="text-4xl text-white font-black uppercase my-4 drop-shadow">
+                Business Registration, Birth Certs & Passport
+              </div>
+
+              <div className="text-white mt-2">
+               Our agency leads and handles your legal documentation issues. We make sure you get it on time.
+              </div>
+
+              <div className="mt-4  space-x-4">
+                {/*<button className="btn btn-accent btn-md">Apply Now</button>*/}
+                <button className="btn btn-info btn-md">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </Carousel>
 
       <div className="container mx-auto py-16">
