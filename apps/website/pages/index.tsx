@@ -135,6 +135,11 @@ export function Index() {
           </div>
         </div>
       </Carousel>
+
+      <div className="container mx-auto py-16">
+        <div className="badge badge-primary bg-opacity-10 badge-lg text-accent">Core Services</div>
+        <div className="text-3xl font-bold my-4">Our Services</div>
+      </div>
     </main>
   );
 }

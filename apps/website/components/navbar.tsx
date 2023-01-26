@@ -62,8 +62,8 @@ export function Navbar() {
               </ul>
             </div>
             <Link className="bg-transparent flex items-center space-x-4 text-xl cursor-pointer" href="/">
-              <Image src={logo} priority width={70} height={70} alt="Fix-Link Consult Logo"/>
-              <div className="uppercase text-blue-900 text-xl font-bold">Fix-Link Consult</div>
+              <Image src={logo} priority width={80} height={80} alt="Fix-Link Consult Logo"/>
+              <div className="uppercase text-primary text-xl font-bold">Fix-Link Consult</div>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
@@ -87,7 +87,7 @@ export function Navbar() {
             </ul>
           </div>
           <div className="navbar-end hidden lg:flex">
-            <a className="btn ">Make an Enquiry</a>
+            <a className="btn btn-neutral">Make an Enquiry</a>
           </div>
         </div>
       </div>
