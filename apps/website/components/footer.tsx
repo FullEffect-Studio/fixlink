@@ -93,7 +93,7 @@ export function Footer() {
                 <Link href="/services/consulting" className="link link-hover">
                   General Consulting
                 </Link>
-                <Link href="/services/work-and-pay" className="link link-hover">
+                <Link href="/services/real-estate" className="link link-hover">
                   Work & Pay
                 </Link>
               </div>
