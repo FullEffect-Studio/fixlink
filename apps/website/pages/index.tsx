@@ -1,8 +1,6 @@
 import { Carousel } from 'antd';
-import { Collapse } from 'antd';
-import {FiMail, FiMapPin, FiPhone} from 'react-icons/fi';
-import {RiCustomerService2Line} from "react-icons/ri";
-
+import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
+import { RiCustomerService2Line } from 'react-icons/ri';
 
 
 export function Index() {
@@ -179,11 +177,20 @@ export function Index() {
       </div>
 
       <div className="px-16 relative z-40 my-16">
-        <div className="bg-accent rounded-2xl py-12" style={{backgroundImage: `url("/images/shape-100.png")`}}>
+        <div
+          className="bg-accent rounded-2xl py-12"
+          style={{ backgroundImage: `url("/images/shape-100.png")` }}
+        >
           <div className="px-12 flex justify-between">
-            <div className="text-2xl text-primary font-bold">Join Us & Increase Your Business.</div>
+            <div className="text-2xl text-primary font-bold">
+              Join Us & Increase Your Business.
+            </div>
             <div className="space-x-2">
-              <input type="text" className="input" placeholder="Enter your email"/>
+              <input
+                type="text"
+                className="input"
+                placeholder="Enter your email"
+              />
               <button className="btn btn-secondary">Join</button>
             </div>
           </div>
@@ -191,69 +198,103 @@ export function Index() {
       </div>
 
       <div className="px-16 relative z-40">
-        <div className="bg-white drop-shadow-2xl rounded-2xl -mb-10 py-12" style={{backgroundImage: `url("/images/shape-100.png")`}}>
-            <div className="px-12 grid grid-cols-2 gap-16">
-              <div className="border-l border-neutral border-l-2 pl-16">
-                <div className="text-4xl text-error mb-4"><RiCustomerService2Line/></div>
-                <div className="text-4xl text-neutral">Convinced yet? Let&apos;s make <br/>something great together.
-                </div>
-                <div className="mt-4">
-                  <div className="grid grid-cols-12 gap-2">
-                    <div><FiMapPin className="text-secondary"/></div>
-                    <div>
-                      <div className="font-bold">Address</div>
-                      <div>Adjacent Pentecost, Adenta - Accra, Ghana</div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-12 gap-2">
-                    <div><FiPhone/></div>
-                    <div>
-                      <div className="font-bold">Phone</div>
-                      <div>+233(0)501064110 / 0302549659</div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-12 gap-2">
-                    <div><FiMail/></div>
-                    <div>
-                      <div className="font-bold">Email</div>
-                      <div>info@fixlinkconsultgh.com</div>
-                    </div>
-                  </div>
-                </div>
+        <div
+          className="bg-white drop-shadow-2xl rounded-2xl -mb-10 py-12"
+          style={{ backgroundImage: `url("/images/shape-100.png")` }}
+        >
+          <div className="px-12 grid grid-cols-2 gap-16">
+            <div className="border-l border-neutral border-l-2 pl-16">
+              <div className="text-4xl text-error mb-4">
+                <RiCustomerService2Line />
               </div>
-
-              <div className="p-8 bg-neutral rounded-lg">
-                <div className="text-3xl text-white font-bold">Have any questions?</div>
-                <div className="text-gray-200">Please contact our customer suppport team today.</div>
-                <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-8">
-                  <div className="form-control w-full col-span-2">
-                    <input type="text" placeholder="Full Name" className="input  input-bordered w-full"/>
+              <div className="text-4xl text-neutral">
+                Convinced yet? Let&apos;s make <br />
+                something great together.
+              </div>
+              <div className="mt-8 space-y-8">
+                <div className="grid grid-cols-12 items-center gap-x-2">
+                  <div>
+                    <FiMapPin className="text-secondary text-xl" />
                   </div>
-
-                  <div className="form-control w-full">
-                    <input type="text" placeholder="Email" className="input input-bordered w-full"/>
+                  <div className="col-span-11">
+                    <div className="font-bold">Address</div>
+                    <div>Adjacent Pentecost, Adenta - Accra, Ghana</div>
                   </div>
+                </div>
 
-
-                  <div className="form-control w-full">
-                    <input type="text" placeholder="Phone Number" className="input input-bordered w-full"/>
+                <div className="grid grid-cols-12 gap-2">
+                  <div>
+                    <FiPhone className="text-secondary text-xl" />
                   </div>
-
-                  <div className="form-control w-full col-span-2">
-                    <input type="text" placeholder="Location" className="input input-bordered w-full"/>
+                  <div className="col-span-11">
+                    <div className="font-bold">Phone</div>
+                    <div>+233(0)501064110 / 0302549659</div>
                   </div>
+                </div>
 
-                  <div className="form-control w-full col-span-2">
-                  <textarea rows={3} placeholder="Write your question" className="input input-bordered w-full">
-
-                  </textarea>
+                <div className="grid grid-cols-12 gap-2">
+                  <div>
+                    <FiMail className="text-secondary text-xl" />
                   </div>
-                  <button className="btn btn-secondary">Submit</button>
+                  <div className="col-span-11">
+                    <div className="font-bold">Email</div>
+                    <div>info@fixlinkconsultgh.com</div>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div className="p-8 bg-neutral rounded-lg">
+              <div className="text-3xl text-white font-bold">
+                Have any questions?
+              </div>
+              <div className="text-gray-200">
+                Please contact our customer suppport team today.
+              </div>
+              <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-8">
+                <div className="form-control w-full col-span-2">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    className="input  input-bordered w-full"
+                  />
+                </div>
+
+                <div className="form-control w-full">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    className="input input-bordered w-full"
+                  />
+                </div>
+
+                <div className="form-control w-full">
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    className="input input-bordered w-full"
+                  />
+                </div>
+
+                <div className="form-control w-full col-span-2">
+                  <input
+                    type="text"
+                    placeholder="Location"
+                    className="input input-bordered w-full"
+                  />
+                </div>
+
+                <div className="form-control w-full col-span-2">
+                  <textarea
+                    rows={3}
+                    placeholder="Write your question"
+                    className="input input-bordered w-full"
+                  ></textarea>
+                </div>
+                <button className="btn btn-secondary">Submit</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
