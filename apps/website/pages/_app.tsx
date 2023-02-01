@@ -16,9 +16,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
   const schema = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
-    "name": "Example Company",
-    "image": "https://www.example.com/logo.png",
-    "url": "https://www.example.com/",
+    "name": "Fix-Link Consult",
+    "image": "https://fixlink.web.app/logo.png",
+    "url": "https://fixlink.web.app/",
     "telephone": "+1-123-456-7890",
     "address": {
       "@type": "PostalAddress",

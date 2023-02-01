@@ -63,7 +63,7 @@ export function Navbar() {
               </ul>
             </div>
             <Link className="bg-transparent flex items-center space-x-4 text-xl cursor-pointer" href="/">
-              <Image src={logo} priority width={80} height={80} alt="Fix-Link Consult Logo"/>
+              <Image src="/images/logo.png" priority width={80} height={80} alt="Fix-Link Consult Logo"/>
               <div className="uppercase text-primary text-xl font-bold">Fix-Link Consult</div>
             </Link>
           </div>
