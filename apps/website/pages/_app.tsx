@@ -5,7 +5,59 @@ import './styles.css';
 import { SiteLayout } from '../components/site-layout';
 import { ConfigProvider } from 'antd';
 
+
+function SchemaMarkup({data}) {
+    return (
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(data)}}/>
+    )
+}
+
 function CustomApp({ Component, pageProps }: AppProps) {
+  const schema = {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Example Company",
+    "image": "https://www.example.com/logo.png",
+    "url": "https://www.example.com/",
+    "telephone": "+1-123-456-7890",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "Anytown",
+      "addressRegion": "CA",
+      "postalCode": "12345",
+      "addressCountry": "US"
+    },
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "13:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/example",
+      "https://www.twitter.com/example",
+      "https://www.linkedin.com/company/example"
+    ]
+  }
   return (
     <>
       <Head>
@@ -42,6 +94,8 @@ function CustomApp({ Component, pageProps }: AppProps) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <SchemaMarkup data={schema}/>
+
       </Head>
       <ConfigProvider
         theme={{
