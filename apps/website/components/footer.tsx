@@ -16,7 +16,7 @@ export function Footer() {
     <>
       <div className="z-10">
         <div className="bg-neutral ">
-          <footer className="container mx-auto footer grid grid-cols-4 lg:grid-cols-6 items-center  pb-8 pt-16 bg-neutral text-neutral-content">
+          <footer className="container mx-auto footer grid grid-cols-4 lg:grid-cols-6 items-center px-4  pb-8 pt-16 bg-neutral text-neutral-content">
 
               <div className="col-span-4 lg:col-span-2">
                 <div className="">
