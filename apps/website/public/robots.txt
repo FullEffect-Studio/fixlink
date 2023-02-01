@@ -3,3 +3,5 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /cgi-bin/
 Allow: /
+
+Sitemap: https://www.fixlink.web.app/sitemap.xml
