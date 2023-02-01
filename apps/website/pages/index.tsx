@@ -1,6 +1,8 @@
 import { Carousel } from 'antd';
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 import { RiCustomerService2Line } from 'react-icons/ri';
+import {MdOutlineHighQuality, MdSpeed} from "react-icons/md";
+import {ImHappy} from "react-icons/im";
 
 
 export function Index() {
@@ -168,8 +170,45 @@ export function Index() {
           </div>
         </div>
       </Carousel>
+      <div className=" py-16 bg-gray-900">
+        <div className="container mx-auto grid grid-cols-3 gap-x-8 gap-y-16 ">
+          <div className="col-span-3 lg:col-span-1 flex flex-col items-center">
+            <MdOutlineHighQuality className="text-accent text-5xl mb-4"/>
+            <div className="text-2xl font-semibold text-white">Quality</div>
+            <div className="text-gray-400">
+              Providing top-notch services to clients
+            </div>
+          </div>
 
-      <div className="container mx-auto py-16">
+          <div className="col-span-3 lg:col-span-1 flex flex-col items-center">
+            <ImHappy className="text-accent text-5xl mb-4"/>
+            <div className="text-2xl font-semibold text-white">Customer Satisfaction</div>
+            <div className="text-gray-400">
+              Ensuring clients are happy with the services provided
+            </div>
+          </div>
+
+          <div className="col-span-3 lg:col-span-1 flex flex-col items-center">
+            <MdSpeed className="text-accent text-5xl mb-4"/>
+            <div className="text-2xl font-semibold text-white">Faster Delivery</div>
+            <div className="text-gray-400">
+              Our skilled experts gets the job done faster and better
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" py-16">
+        <div className="container mx-auto">
+          <div className="badge badge-primary bg-opacity-10 badge-lg text-accent">
+            About Us
+          </div>
+          <div className="text-3xl font-bold my-4">Our Services</div>
+        </div>
+
+      </div>
+
+      <div className="container mx-auto hidden py-16">
         <div className="badge badge-primary bg-opacity-10 badge-lg text-accent">
           Core Services
         </div>
