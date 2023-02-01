@@ -19,16 +19,16 @@ function CustomApp({ Component, pageProps }: AppProps) {
     "name": "Fix-Link Consult",
     "image": "https://fixlink.web.app/logo.png",
     "url": "https://fixlink.web.app/",
-    "telephone": "+1-123-456-7890",
+    "telephone": "+233-(0)501-064-110",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Main St",
-      "addressLocality": "Anytown",
-      "addressRegion": "CA",
-      "postalCode": "12345",
-      "addressCountry": "US"
+      "streetAddress": "Lettuce Street, Adenta Pentecost Lane",
+      "addressLocality": "Adenta",
+      "addressRegion": "GR",
+      "postalCode": "00233",
+      "addressCountry": "GH"
     },
-    "priceRange": "$$",
+    "priceRange": "GH",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -39,8 +39,8 @@ function CustomApp({ Component, pageProps }: AppProps) {
           "Thursday",
           "Friday"
         ],
-        "opens": "09:00",
-        "closes": "17:00"
+        "opens": "07:00",
+        "closes": "20:00"
       },
       {
         "@type": "OpeningHoursSpecification",
@@ -49,13 +49,13 @@ function CustomApp({ Component, pageProps }: AppProps) {
           "Sunday"
         ],
         "opens": "09:00",
-        "closes": "13:00"
+        "closes": "19:00"
       }
     ],
     "sameAs": [
-      "https://www.facebook.com/example",
-      "https://www.twitter.com/example",
-      "https://www.linkedin.com/company/example"
+      "https://www.facebook.com/fixlink",
+      "https://www.twitter.com/fixlink",
+      "https://www.linkedin.com/company/fixlink"
     ]
   }
   return (
