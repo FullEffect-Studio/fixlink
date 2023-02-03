@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/apps/website/exported",
+    "public": "static",
     "ignore": [
       "firebase.json",
       "**/.*",
