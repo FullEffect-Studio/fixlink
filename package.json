@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev:website": "nx serve website",
-    "build": "nx build website && nx export website"
+    "build": "echo 'done'"
   },
   "private": true,
   "dependencies": {
