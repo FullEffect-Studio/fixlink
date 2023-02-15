@@ -257,7 +257,7 @@ export function Index() {
                   </div>
                   <div className="col-span-11">
                     <div className="font-bold">Address</div>
-                    <div>Adjacent Pentecost, Adenta - Accra, Ghana</div>
+                    <div>8 Lettuce Street, GM-062-5091, Adenta Pentecost Road</div>
                   </div>
                 </div>
 

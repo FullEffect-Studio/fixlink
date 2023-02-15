@@ -113,7 +113,7 @@ export function Footer() {
                 <div className="flex items-center">
                   {' '}
                   <FiMapPin className="text-accent text-md mr-2" />{' '}
-                  <div>Adjacent Pentecost, Adenta - Accra, Ghana</div>
+                  <div>8 Lettuce Street, GM-062-5091, Adenta Pentecost Road</div>
                 </div>
                 <div></div>
                 <div></div>
