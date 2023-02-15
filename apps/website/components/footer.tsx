@@ -103,7 +103,7 @@ export function Footer() {
                 <div className="flex items-center">
                   {' '}
                   <FiMail className="text-accent text-md mr-2" />{' '}
-                  <div>info@fixlinkconsultgh.com</div>
+                  <div>info@fixlinkgh.com</div>
                 </div>
                 <div className="flex items-center">
                   {' '}

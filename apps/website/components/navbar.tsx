@@ -11,7 +11,7 @@ export function Navbar() {
           <div className="hidden md:flex flex-1 space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-200">
               <FiMail className="text-accent" />
-              <div>info@fixlinkconsultgh.com</div>
+              <div>info@fixlinkgh.com</div>
             </div>
 
             <div className="flex items-center space-x-2 text-sm text-gray-200">

@@ -277,7 +277,7 @@ export function Index() {
                   </div>
                   <div className="col-span-11">
                     <div className="font-bold">Email</div>
-                    <div>info@fixlinkconsultgh.com</div>
+                    <div>info@fixlinkgh.com</div>
                   </div>
                 </div>
               </div>
