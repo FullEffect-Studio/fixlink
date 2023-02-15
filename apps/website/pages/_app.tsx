@@ -67,7 +67,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
           name="description"
           content="Fix-Link Consult offers a wide range of services to help you achieve your goals, whether you're looking to study abroad, plan an event, capture memories through photography and video, own a car, or grow your business."
         />
-        <meta name="keywords" content="fixlink, consultancy, Ghana consultancy firms, Consulting business, Ghana, Study abroad, Birth cert, Birth certificate, VISA, visa application, passport, Ghana passport, Ghanaian passport, application, graphic design, printing, large format printing, photograhy, video coverage, event planning, real estate, legal documents, general business, business consultation, Ghana, business, best, top, companies, fulleffect, clients, " />
+        <meta name="keywords" content="fixlink, consultancy, Ghana consultancy firms, Consulting business, Ghana, Study abroad, Birth cert, Birth certificate, VISA, visa application, passport, Ghana passport, Ghanaian passport, application, graphic design, printing, large format printing, photograhy, video coverage, event planning, PEF Real Estate, legal documents, general business, business consultation, Ghana, business, best, top, companies, fulleffect, clients, " />
         <meta property="og:title" content="Fix-Link Consult" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://fixlink.web.app" />

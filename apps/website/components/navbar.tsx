@@ -54,7 +54,7 @@ export function Navbar() {
                     <li><Link href="/services/study-abroad">Study Abroad</Link></li>
                     <li><Link href="/services/photography">Photography & Video Coverage</Link></li>
                     <li><Link href="/services/design">Graphic Design & Printing Press</Link></li>
-                    <li><Link href="/services/real-estate">Real Estate</Link></li>
+                    <li><Link href="/services/real-estate">PEF Real Estate</Link></li>
                     <li><Link href="/services/legal_documents">Legal Documents</Link></li>
                     <li><Link href="/services/consulting">General Consulting</Link></li>
                   </ul>
@@ -80,7 +80,7 @@ export function Navbar() {
                   <li><Link href="/services/study-abroad">Study Abroad</Link></li>
                   <li><Link href="/services/photography">Photography & Video Coverage</Link></li>
                   <li><Link href="/services/design">Graphic Design & Printing Press</Link></li>
-                  <li><Link href="/services/real-estate">Real Estate</Link></li>
+                  <li><Link href="/services/real-estate">PEF Real Estate</Link></li>
                   <li><Link href="/services/legal_documents">Legal Documents</Link></li>
                   <li><Link href="/services/consulting">General Consulting</Link></li>
                 </ul>
