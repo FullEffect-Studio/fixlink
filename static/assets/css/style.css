@@ -1,4 +1,4 @@
- 
+
 /* Css For Atrix */
 
 /************ TABLE OF CONTENTS ***************
@@ -1301,7 +1301,7 @@
   -ms-transition:all 1500ms ease;
   -o-transition:all 1500ms ease;
   -moz-transition:all 1500ms ease;
-  transition:all 1500ms ease; 
+  transition:all 1500ms ease;
 }
 
 .progress-box h6{
@@ -1537,7 +1537,7 @@
 }
 
 .tabs-box .tab.active-tab{
-  display:block;  
+  display:block;
 }
 
 .tabs-box .tab{
@@ -2432,7 +2432,7 @@
   margin-top: 50px;
 }
 
-.testimonial-two .dots-style-one .owl-dots .owl-dot.active span, 
+.testimonial-two .dots-style-one .owl-dots .owl-dot.active span,
 .testimonial-two .dots-style-one .owl-dots .owl-dot span:hover{
 
 }
@@ -2516,7 +2516,7 @@
 }
 
 .news-two .news-block-one .inner-box .lower-content .theme-btn.btn-three:before{
-  
+
 }
 
 
@@ -3151,7 +3151,7 @@
   background-repeat: no-repeat;
 }
 
-.testimonial-three .nav-style-two .owl-nav button.owl-next:hover:before, 
+.testimonial-three .nav-style-two .owl-nav button.owl-next:hover:before,
 .testimonial-three .nav-style-two .owl-nav button.owl-prev:hover:before {
   background: #6a36ff;
 }
@@ -3744,7 +3744,7 @@
 }
 
 .accordion-box .block .acc-content.current{
-  display:block;  
+  display:block;
 }
 
 .accordion-box .block .acc-content p{
@@ -3946,9 +3946,9 @@
   text-align: center;
 }
 
-.testimonial-four .dots-style-one .owl-dots .owl-dot.active span, 
+.testimonial-four .dots-style-one .owl-dots .owl-dot.active span,
 .testimonial-four .dots-style-one .owl-dots .owl-dot span:hover {
-  
+
 }
 
 .overflow_visible .owl-stage-outer{
@@ -4162,8 +4162,8 @@
   border: 1px solid #f9f9f9 !important;
 }
 
-.ui-state-highlight, 
-.ui-widget-content .ui-state-highlight, 
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight{
   border: 1px solid #333333 !important;
   background: #333333 !important;
@@ -4174,7 +4174,7 @@
   left: 5px;
 }
 
-.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
   border-radius: 30%;
   height: 20px;
@@ -4190,7 +4190,7 @@
   right: 5px;
 }
 
-.ui-datepicker .ui-datepicker-prev:hover, 
+.ui-datepicker .ui-datepicker-prev:hover,
 .ui-datepicker .ui-datepicker-next:hover {
   top: 7px;
   border: none;
@@ -5325,7 +5325,7 @@
 /** cta-four **/
 
 .cta-four{
-  background: #252628;
+  background: #ffffff;
   padding: 135px 0px;
 }
 
@@ -7268,7 +7268,7 @@ div[class^="bubble-"] {
 
 .feture-black-eight .inner-box:hover{
   border-color: transparent;
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10); 
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10);
 }
 
 
@@ -10765,7 +10765,7 @@ div[class^="bubble-"] {
 }
 
 .testimonial-block-four .inner-box .author .thumb-box{
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
 .testimonial-block-four .inner-box .author img{
@@ -11869,7 +11869,7 @@ div[class^="bubble-"] {
   opacity: 0.3;
 }
 
-.testimonial-five.about-page-3 .dots-style-one .owl-dots .owl-dot.active span, 
+.testimonial-five.about-page-3 .dots-style-one .owl-dots .owl-dot.active span,
 .testimonial-five.about-page-3 .dots-style-one .owl-dots .owl-dot span:hover{
   opacity: 1;
 }
@@ -13169,8 +13169,8 @@ div[class^="bubble-"] {
   border: 1px solid #e5e5e5;
 }
 
-.service-details-2 .service-sidebar .consulting-widget input[type='text'], 
-.service-details-2 .service-sidebar .consulting-widget input[type='email'], 
+.service-details-2 .service-sidebar .consulting-widget input[type='text'],
+.service-details-2 .service-sidebar .consulting-widget input[type='email'],
 .service-details-2 .service-sidebar .consulting-widget textarea{
   background: #f5f5f5;
   border-color: #f5f5f5;
@@ -14093,10 +14093,10 @@ div[class^="bubble-"] {
   background: #fff;
 }
 
-.registration-section .default-form input[type='text'], 
-.registration-section .default-form input[type='email'], 
-.registration-section .default-form input[type='tel'], 
-.registration-section .default-form input[type='password'], 
+.registration-section .default-form input[type='text'],
+.registration-section .default-form input[type='email'],
+.registration-section .default-form input[type='tel'],
+.registration-section .default-form input[type='password'],
 .registration-section .default-form textarea{
   border: 1px solid #e5e5e5;
 }
@@ -14916,7 +14916,7 @@ div[class^="bubble-"] {
   display: none;
 }
 
-.project-eight .sortable-masonry .filter-tabs li.active, 
+.project-eight .sortable-masonry .filter-tabs li.active,
 .project-eight .sortable-masonry .filter-tabs li:hover{
   color: #fff;
 }
@@ -14934,7 +14934,7 @@ div[class^="bubble-"] {
   transition: all 500ms ease;
 }
 
-.project-eight .sortable-masonry .filter-tabs li.active:after, 
+.project-eight .sortable-masonry .filter-tabs li.active:after,
 .project-eight .sortable-masonry .filter-tabs li:hover:after{
   transform: scale(1,1);
 }
@@ -14960,7 +14960,7 @@ div[class^="bubble-"] {
   display: none;
 }
 
-.project-nine .sortable-masonry .filter-tabs li.active, 
+.project-nine .sortable-masonry .filter-tabs li.active,
 .project-nine .sortable-masonry .filter-tabs li:hover{
   color: #fff;
 }
@@ -14978,7 +14978,7 @@ div[class^="bubble-"] {
   transition: all 500ms ease;
 }
 
-.project-nine .sortable-masonry .filter-tabs li.active:after, 
+.project-nine .sortable-masonry .filter-tabs li.active:after,
 .project-nine .sortable-masonry .filter-tabs li:hover:after{
   transform: scale(1,1);
 }
@@ -15419,7 +15419,7 @@ div[class^="bubble-"] {
 
 
 
-/*** 
+/***
 
 ====================================================================
     Search Popup
@@ -15627,7 +15627,7 @@ div[class^="bubble-"] {
   z-index: 1;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
-  transform: translateX(0);       
+  transform: translateX(0);
 }
 
 .overlay-anim-black-bg:after{
@@ -16133,7 +16133,7 @@ body.out .mouse-pointer {
   0% {
    transform: translate3d(-90px,0,0);
   }
-  100% { 
+  100% {
     transform: translate3d(85px,0,0);
   }
 }
@@ -16213,7 +16213,7 @@ body.out .mouse-pointer {
   font-family: 'Muli', sans-serif;
   font-weight: 700;
 }
- 
+
 .cta-four .theme-btn:before{
   background: #fff;
 }
@@ -17048,7 +17048,7 @@ body.out .mouse-pointer {
   box-shadow: 0 10px 50px rgb(0 0 0 / 20%);
 }
 
-.testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-next:hover:before, 
+.testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-next:hover:before,
 .testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-prev:hover:before{
   background: #f1592a;
 }
